@@ -1,0 +1,72 @@
+#tamano_pag {
+    /* width: 1000px;
+    height: 650px;*/
+}  
+
+body {
+    background-color: rgb(40, 39, 39);
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.margen {
+    display: flex;
+}
+
+.texto_en_pagina {
+    color: white;
+}
+
+#cuadro_1 {
+    position:static;
+    width: 100%;
+    height: 25%;
+    background-color: aqua;
+    border: 2px solid aqua;
+}
+
+#cuadro_2 {
+    position: static;
+    width: 100%;
+    height: 25%;
+    background-color: yellow;
+    border: 2px solid yellow;
+  }
+
+#cuadro_3 {
+    position: static;
+    width: 100%;
+    height: 25%;
+    background-color: orange;
+    border: 2px solid orange;
+  }
+
+#cuadro_4 {
+    position: static;
+    width: 100%;
+    height: 25%;
+    background-color: red;
+    border: 2px solid red;
+  }
+
+.vertical-menu {
+    position:static;
+    margin:10px;
+    width: 20%;
+    height: 140px;
+  }
+  
+  .vertical-menu a {
+    background-color: rgb(40, 39, 39);
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: rgb(81, 80, 80);
+    color: rgb(123, 121, 121);
+  }
+
+
